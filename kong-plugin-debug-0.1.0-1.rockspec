@@ -1,7 +1,7 @@
 package = "kong-plugin-debug"
 version = "0.1.0-1"
 source = {
-   url = "git://github.com/localz/kong-plugin-universal-jwt",
+   url = "git://github.com/Kong-Study-Group/kong-plugin-debug",
    tag = "0.1.0"
 }
 description = {
