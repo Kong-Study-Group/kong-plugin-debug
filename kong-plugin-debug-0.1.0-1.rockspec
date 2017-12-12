@@ -1,8 +1,8 @@
 package = "kong-plugin-debug"
-version = "0.1.0-1"
+version = "0.1.1-1"
 source = {
    url = "git://github.com/Kong-Study-Group/kong-plugin-debug",
-   tag = "0.1.0"
+   tag = "0.1.1"
 }
 description = {
    summary = "Kong custom plugin for show api message",

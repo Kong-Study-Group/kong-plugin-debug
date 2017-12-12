@@ -11,9 +11,9 @@ end
 function DebugHandler:header_filter(config)
     DebugHandler.super.header_filter(self)
 
-    local ctx = ngx.ctx
+    local ctx = ngx.ctx or {}
     local header = ngx.header
-    header["X-Kong-API"] = ctx.api and ctx.api.id or ""
+    header["X-Kong-API"] = json.encode(ctx)
 end
 
 return DebugHandler
