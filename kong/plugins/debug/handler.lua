@@ -40,7 +40,7 @@ function DebugHandler:header_filter(config)
         })
     end
 
-    local header = ngx.headerkk
+    local header = ngx.header
     header["X-Kong-API"] = encoded
 end
 
